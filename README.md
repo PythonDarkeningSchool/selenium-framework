@@ -115,3 +115,11 @@ In order to add more dependencies to the `pom.xml`, go to the official site, fin
 Example:
 
 ![exampleMavenRepository](img/exampleMavenRepository.png)
+
+
+
+# References
+
+## POM
+
+- [Introduction to the pom](https://maven.apache.org/guides/introduction/introduction-to-the-pom.html)
