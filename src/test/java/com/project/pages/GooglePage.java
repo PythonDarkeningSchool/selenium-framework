@@ -1,4 +1,4 @@
 package com.project.pages;
 
-public class google {
+public class GooglePage {
 }
