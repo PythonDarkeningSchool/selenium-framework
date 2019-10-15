@@ -6,6 +6,7 @@
     <version>1.0</version>
 
 
+    <!-- Setup: https://cucumber.io/docs/installation/java -->
     <dependencies>
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
@@ -18,22 +19,26 @@
             <artifactId>selenium-chrome-driver</artifactId>
             <version>3.141.59</version>
         </dependency>
+        <!-- To run your Cucumber test suite -->
         <dependency>
             <groupId>io.cucumber</groupId>
             <artifactId>cucumber-junit</artifactId>
             <version>4.7.4</version>
             <scope>test</scope>
         </dependency>
-        <dependency>
-            <groupId>io.cucumber</groupId>
-            <artifactId>gherkin</artifactId>
-            <version>8.0.0</version>
-        </dependency>
+        <!-- To use the lambda expressions API (Java 8) -->
         <dependency>
             <groupId>io.cucumber</groupId>
             <artifactId>cucumber-java8</artifactId>
             <version>4.7.4</version>
         </dependency>
+        <!-- For CucumberOptions -->
+        <dependency>
+            <groupId>com.aventstack</groupId>
+            <artifactId>extentreports-cucumber4-adapter</artifactId>
+            <version>1.0.7</version>
+        </dependency>
+
 
     </dependencies>
 
