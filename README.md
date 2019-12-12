@@ -74,7 +74,7 @@ The IDE needs a couple of profiles in order to run this automation
    1. **Name**: `<any name>`
    2. **Class** = com.example.E2ETest
    3. **Working directory**: `<automation folder absolute path>`
-   4. **User class path of module**: TestAutomation
+   4. **User class path of module**: <yourRepositoryName>
    5. **JRE**: `<Java version 1.8>`
 
 
